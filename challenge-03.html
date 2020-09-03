@@ -9,8 +9,7 @@
       <p>
         <label>
           Search
-          <!-- Create an input with type "text" and id "giphy-search" -->
-          
+          <input id="giphy-search">      
         </label>
       </p>
 
@@ -27,23 +26,29 @@
         <label>
           <input type="radio" name="size" value="fixed_height">
           Fixed Height
+        </label><br>
+        <label>
+          <input type="radio" name="size" value="fixed_height_small"> Fixed Height Small
+        </label><br>
+        <label>
+          <input type="radio" name="size" value="fixed_height_small_still"> Fixed Height Small Still
         </label>
       </p>
 
       <p>
-        <!-- Create an input inside a label. -->
-        <!-- This will be a checkbox. Use type = cheackbox -->
-        <!-- Checkbox id='cats-only'-->
+        <label>
+          <input id="cats-only" type="checkbox" value="cats-only" name="cats-only">Cats Only
+        </label>
       </p>
 
       <p>
-        <!-- Make an other check box -->
-        <!-- Use id='show-title'-->
+        <input id="show-title" type="checkbox" value="show-title" name="show_title">Show Title?
       </p>
 
       <p>
+        <input type="range" id="image-count" name="image-count" value="1" min="1" max="6">Image Count
         <!-- Make a range slider. This is inptu with type = range -->
-        <!-- range id="image-count"-->
+        
       </p>
       
       <p>
